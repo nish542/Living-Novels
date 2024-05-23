@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Living Novels</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img class="intro_img" src="Used Images/logo.ashx 3.jpeg"
+        width="80" height="80">
+      <h1 class="heading">Living Novel</h1>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-imdb"></i></a>
+        <a href="#"><i class="fab fa-amazon"></i></a>
+      </div> 
+    </header>
+    <aside class="left">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        
+        <li><a href="Best_of_the_list.html">Best of the list</a></li>
+        <li><a href="sign_up.html">Sign-up</a></li>
+      </ul>
+      <br><br><br>
+      <p class="quote"><i>"What some people call a nightmare, a writer calls a plot..."</i><br></p>
+      <p>- Mr Frost</p>
+    </aside>
+    <main class="content">
+      <div class="intro_cover">
+        <img src="Used Images/Intro cover image.png" width="1050px" height="300px">
+      </div>
+      <br>
+      <hr>      
+        <div class="btns">
+        <p class="btn">
+        |   Do you want to subscribe to our website services ?
+        </p><br><br><br>
+        <button class="btns" onclick="displayYes()">Yes</button>
+        <button class="btns" onclick="displayInfo()">No</button>
+      </div>
+      
+      <script>
+        function displayYes(){
+          alert("You firstly have to log-in to our website.")
+        }
+        function displayInfo(){
+          alert("Its sad to know that you don't wanna continue with us🥹");
+        }
+      </script>
+      <div class="para">
+        <p class="para">
+          Working to provide you with the stuff you would love to watch !!<br>
+          What do you think about us?<br>
+          Please write your valuable feedback for our website.
+        </p>
+        <textarea rows="6" cols="52"></textarea>
+        <button class="submit" type="submit" value="submit" onclick="displayMsg()">Submit</button>
+      </div>
+      <script>
+        function displayMsg(){
+          alert("Thank You!!");
+          alert("Your response has been submitted. ")
+        }
+      </script>
+      <br><br><br><br>
+      <div class="transbox">
+        <div class="transbox2">
+          <h2 class="title">About Us</h2>
+          <p class="about">We know you love your novels, but getting into the world of novels would fell something else.
+            We are the ones who help get the visual treat for you favourite novels.<br>
+            We provide you with the all the movie recommendations which would give you a perfect experience to live you
+            favourite stories on you screen.
+          </p>
+        </div>  
+      </div>
+      
+
+      <br>
+      <br>
+      <br><br><br><br><br>
+
+    </main>
+    <footer class="footer">&copy; Copyright Living Novels</footer>
+  </div>
+</body>
+
+</html>
